@@ -1,0 +1,15 @@
+.groupView {
+    background-color: var(--main-color);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.groupView__body {
+    display: flex;
+    height: 60%;
+    width: 100%;
+}

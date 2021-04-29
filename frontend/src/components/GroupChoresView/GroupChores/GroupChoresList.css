@@ -1,0 +1,18 @@
+.groupChoresList {
+  top: 80px;
+  flex: 1;
+  padding: 30px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+@media screen and (max-width: 380px) {
+  .groupChoresList {
+    right: -100px;
+  }
+}

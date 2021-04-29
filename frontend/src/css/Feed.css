@@ -1,0 +1,23 @@
+.feed {
+  top: 80px;
+  flex: 1;
+  padding: 30px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.noChoresLeft > h3 {
+  font-style: italic;
+  color: var(--header-icon-color);
+}
+
+@media screen and (max-width: 380px) {
+  .feed {
+    right: -100px;
+  }
+}

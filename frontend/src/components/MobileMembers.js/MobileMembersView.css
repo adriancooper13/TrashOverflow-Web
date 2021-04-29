@@ -1,0 +1,9 @@
+.mobileMembersView {
+    background-color: var(--main-color);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+
+    overflow: scroll;
+    overflow-x: hidden;
+}
